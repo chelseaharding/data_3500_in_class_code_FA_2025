@@ -28,3 +28,38 @@ elif year <= 2024:
     print("You are gen alpha")
 else:
     print("You are gen beta")
+
+
+"""
+Programming Activity 2:
+
+Write a program which asks the user their age, then using a while loop displays the year they were born, using the following rules:
+ - continue the loop while age is greater than 1
+ - print each time "you were alive in year: " current_year
+ - decrease age and current_year by one each time
+ - add an else saying "you were born in year: " current_year
+"""
+age = int(input("How old are you: "))
+current_year = 2025
+while age >= 1:
+    print("You were alive in", current_year)
+    age -= 1
+    current_year -= 1
+else:
+    print("You were born in", current_year)
+"""
+Programming Activity 3
+
+Write a program that prints all the multiples of 5, from 5 to 95 using a for loop. 
+"""
+for i in range(5, 96, 5):
+    print("i:", i)
+"""
+Programming Activity 4
+
+Write a program that prints all the multiples of 5, from 5 to 95 using a while loop.
+"""
+num = 5
+while num < 96:
+    print("num:", num)
+    num += 5
