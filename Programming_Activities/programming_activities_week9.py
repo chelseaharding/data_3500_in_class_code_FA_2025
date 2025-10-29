@@ -47,3 +47,32 @@ Whoa, and then I was like Whoa"
  - append an exclamation point.
  - print the new sentence.
 """
+
+sentence = "dude, I just biked down that mountain and at first I was like Whoa and then I was like Whoa. Whoa is my favorite word."
+
+# sentence = sentence.capitalize()
+# print(sentence)
+
+words = sentence.split(" ")
+print("words:", words)
+words[0] = words[0].capitalize()
+print(words)
+
+first_whoa = False
+i = 0
+for word in words:
+  if words[i].lower() == "whoa" and first_whoa == False:
+      first_whoa = True
+      words[i] = words[i].lower()
+  elif words[i].lower() == "whoa" and first_whoa == True:
+      words[i] = words[i].upper()
+
+  i += 1
+
+print("words:", words)
+    
+
+
+# sentence.replace("Whoa and", "Whoa and")
+
+# print(words.index("whoa"))

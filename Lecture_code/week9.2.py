@@ -92,7 +92,7 @@ for i in range(5):
 print("cities:", cities)
 
 
-stuff = "hello everyone I really really love python so much like I love it SO much"
+stuff = "hello everyone I really really love python so much like I love it SO much🍇🍈🍉🍊🍋🍋‍🟩🍌🍍🥭🍎🍏🍐🍑🍒🍓🫐🥝🍅🫒🥥"
 words = stuff.split(" ")
 print(words)
 city = "new york"
