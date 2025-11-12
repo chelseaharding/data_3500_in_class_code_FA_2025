@@ -45,3 +45,29 @@ fav_color = input("Fav color: ")
 
 dictionary = {"age":age, "color":fav_color, "multiplication":mult_table}
 print(dictionary)
+
+"""
+Programming Activity 3
+
+Write a program, which loads a json file "person.json" into a Python 
+dictionary. Change the contents of person["age"] by adding 1. Save the 
+updated dictionary to person.json, and verify the contents of person.json 
+have been updated.
+- load person.json in to a Python dictionary using the json.load() function
+- update the value of person["age"], increase by 1
+- save the Python dictionary to person.json
+- open person.json and verify the "age" value has increased by 1
+"""
+
+
+"""
+Programming Activity 4
+
+Write a program that asks the user for two numbers. In a try statement, 
+attempt to divide number 1 by number 2.  If number 2 is a 0, print a 
+message in the except statement saying "Error, attempted to divide by zero"
+- create two variables, inputted by the user
+- in a  try: block attempt to divide num1 by num2
+- in a except: block print a message indicating divide by zero error
+- end program
+"""

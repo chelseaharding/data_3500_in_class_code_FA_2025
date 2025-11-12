@@ -1,0 +1,13 @@
+{
+    "name": "Mario Mario",
+    "profession": "Plummer",
+    "lives": 3,
+    "age": 44,
+    "relationships": [
+        "Peach",
+        "Luigi",
+        "Bowser",
+        "Toad",
+        "Donkey Kong"
+    ]
+}
