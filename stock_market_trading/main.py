@@ -4,6 +4,9 @@ import time
 
 
 results = {}
+most_profit     = 0
+best_strategy   = ""
+best_ticker     = ""
 tickers = ["AAPL", "TSLA", "NVDA", "SONY", "COST", "META", "AMZN", "SNAP", "DAL", "FIX"]
 # tickers = ["AAPL"]
 
@@ -131,8 +134,8 @@ def save_results(results):
     json.dump(results, open("/workspaces/data_3500_in_class_code_FA_2025/stock_market_trading/results.json", "w"), indent=4)
 
 for ticker in tickers:
-    # inital_data_pull(ticker)
-    # append_data(ticker)
+    # inital_data_pull(ticker) # only run this the first time you run code to get inital data
+    append_data(ticker) # use this to update data
     file = open("/workspaces/data_3500_in_class_code_FA_2025/stock_market_trading/"+ticker+".csv")
     prices = load_prices(file)
     results[ticker+"_Prices"] = prices
@@ -145,4 +148,14 @@ for ticker in tickers:
     results[ticker+"_SMA_Profit"]  = sma_total_profit
     results[ticker+"_SMA_Returns"] = sma_returns
 
+    if mr_total_profit > most_profit:
+        most_profit = mr_total_profit
+        best_strategy = "Mean Reversion Strategy"
+        best_ticker = ticker
+    if sma_total_profit > most_profit:
+        most_profit = sma_total_profit
+        best_strategy = "Simple Moving Average"
+        best_ticker = ticker
+
 save_results(results)
+print("Your best stock was", best_ticker, "with a profit of", round(most_profit, 2), "using the", best_strategy, "trading strategy.")
