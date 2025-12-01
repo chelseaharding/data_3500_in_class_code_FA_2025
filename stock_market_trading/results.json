@@ -6565,6 +6565,8 @@
     "AAPL_MR_Returns": 2.8184503577817552,
     "AAPL_SMA_Profit": 298.5713999999998,
     "AAPL_SMA_Returns": 3.0981778561793067,
+    "AAPL_SMABW_Profit": -57.49199999999968,
+    "AAPL_SMABW_Returns": -0.6344294857647282,
     "TSLA_Prices": [
         23.89,
         23.83,
@@ -10451,6 +10453,8 @@
     "TSLA_MR_Returns": -10.5452848101266,
     "TSLA_SMA_Profit": 413.3702999999995,
     "TSLA_SMA_Returns": 22.787778390297657,
+    "TSLA_SMABW_Profit": 827.9595,
+    "TSLA_SMABW_Returns": 40.94755192878339,
     "NVDA_Prices": [
         23.5,
         25.0,
@@ -17017,6 +17021,8 @@
     "NVDA_MR_Returns": 2.6055532467532423,
     "NVDA_SMA_Profit": 120.04999999999995,
     "NVDA_SMA_Returns": 4.131108052305573,
+    "NVDA_SMABW_Profit": 231.33310000000031,
+    "NVDA_SMABW_Returns": 5.403716421396877,
     "SONY_Prices": [
         155.88,
         158.44,
@@ -23583,6 +23589,8 @@
     "SONY_MR_Returns": -1.3254771784232366,
     "SONY_SMA_Profit": 218.80000000000024,
     "SONY_SMA_Returns": 1.3280728376327784,
+    "SONY_SMABW_Profit": 25.639999999999997,
+    "SONY_SMABW_Returns": 0.142002658396101,
     "COST_Prices": [
         78.56,
         80.56,
@@ -30149,6 +30157,8 @@
     "COST_MR_Returns": 3.088715131022826,
     "COST_SMA_Profit": 297.46720000000056,
     "COST_SMA_Returns": 3.438927167630064,
+    "COST_SMABW_Profit": 320.0053999999997,
+    "COST_SMABW_Returns": 3.727928704566632,
     "META_Prices": [
         38.2318,
         34.03,
@@ -33558,6 +33568,8 @@
     "META_MR_Returns": 10.79203697900344,
     "META_SMA_Profit": 60.83900000000034,
     "META_SMA_Returns": 2.2449815498155106,
+    "META_SMABW_Profit": 249.37310000000002,
+    "META_SMABW_Returns": 8.308559338975146,
     "AMZN_Prices": [
         69.13,
         66.44,
@@ -40124,6 +40136,8 @@
     "AMZN_MR_Returns": 28.399722352941186,
     "AMZN_SMA_Profit": -1150.1615999999983,
     "AMZN_SMA_Returns": -14.745661538461517,
+    "AMZN_SMABW_Profit": -164.46370000000064,
+    "AMZN_SMABW_Returns": -2.0430273291925545,
     "SNAP_Prices": [
         24.48,
         27.09,
@@ -42330,6 +42344,8 @@
     "SNAP_MR_Returns": -0.11712901805372118,
     "SNAP_SMA_Profit": 9.289999999999992,
     "SNAP_SMA_Returns": 0.4558390578999015,
+    "SNAP_SMABW_Profit": -43.19999999999999,
+    "SNAP_SMABW_Returns": -1.8677042801556416,
     "DAL_Prices": [
         20.72,
         20.98,
@@ -47011,6 +47027,8 @@
     "DAL_MR_Returns": -1.3980964467005073,
     "DAL_SMA_Profit": 42.83,
     "DAL_SMA_Returns": 2.2518401682439535,
+    "DAL_SMABW_Profit": 63.28249999999996,
+    "DAL_SMABW_Returns": 3.2369565217391285,
     "FIX_Prices": [
         7.625,
         7.188,
@@ -53576,5 +53594,7 @@
     "FIX_MR_Profit": 637.904,
     "FIX_MR_Returns": 80.36079617031999,
     "FIX_SMA_Profit": 241.4269999999999,
-    "FIX_SMA_Returns": 33.013400793108154
+    "FIX_SMA_Returns": 33.013400793108154,
+    "FIX_SMABW_Profit": 389.36199999999997,
+    "FIX_SMABW_Returns": 49.050390526581
 }
